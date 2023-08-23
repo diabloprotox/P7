@@ -1,7 +1,17 @@
-function Error() {
+import '../../styles/Error.css';
+import { Link } from 'react-router-dom';
+
+
+function PageNotFound() {
     return (
-        <div>Error</div>
+        <div className="error">
+            <div className="error_main">
+                <h1>404</h1>
+                <h2>Oups! La page que vous demandez n'existe pas.</h2>
+            </div>
+            <Link to='/'>Retourner sur la page d’accueil</Link>
+        </div>
     )
 }
 
-export default Error
+export default PageNotFound

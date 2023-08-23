@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
 body{
     display:flex;
     padding: 40px 100px 0px 100px;

@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .navbar{
     display: flex;
     width: 1240px;
     height: 68px;
     justify-content: center;
     align-items: center;
-    gap: 720px;
+    gap: 45rem;
 }
 
 .navbar_links{
-    font-family: 'Montserrat', sans-serif;
+    display: flex;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    
+    gap:3.56rem;
 }
 
 .navbar_links a {
@@ -22,5 +22,9 @@
 }
 
 .navbar_links a.active {
+    text-decoration: underline;
+}
+
+.navbar_links a:hover {
     text-decoration: underline;
 }
