@@ -1,0 +1,36 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    gap: 60px;
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+
+.card{
+    width: 340px;
+    position: relative;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+
+}
+
+.card img{
+    position:absolute;
+    background-color: #ff6060;
+    height: 100%;
+}
+
+.card p{
+    position: absolute;
+    left: 5%;
+    bottom:5%;
+    color: white;
+    font-size: 18px;
+    z-index: 1;
+    
+}
