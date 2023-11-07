@@ -1,0 +1,33 @@
+.dropdown h4{
+    width: 63.9375rem;
+    color: white;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+
+
+.dropdown p{
+    color: #FF6060;
+    border-radius: 0.6rem;
+    padding: 0.5rem 1.8rem 1rem 1.25rem;
+    font-size: 1.5rem;
+}
+
+.dropdown-open{
+    background: #F6F6F6;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.dropdown-title{
+    display: flex;
+    background: #FF6060;
+    border-radius: 0.625rem;
+    padding: 0.5rem 1.8rem 0.5rem 1.25rem;
+}

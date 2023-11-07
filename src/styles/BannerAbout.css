@@ -1,0 +1,8 @@
+.banner-about{
+    background-image: url(../assets/aboutbanner.png);
+    height: 13.9375rem;
+    max-width: 77.5rem;
+    border-radius: 1.5625rem;
+    background-position: center;
+    margin-top: 2.75rem;
+}
